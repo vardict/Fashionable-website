@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 31, 2022, 3:43:55 PM
+    Author     : Tijana
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Roboto:wght@400;700&display=swap');
+
+
+/* 
+
+font-family: 'Playfair Display', serif;
+
+font-family: 'Roboto', sans-serif;
+    
+*/
+
+
+/*
+FONTAWESOM:
+
+<i class="fa-brands fa-facebook-f"></i> FACEBOOK
+
+<i class="fa-brands fa-twitter"></i>
+
+<i class="fa-brands fa-instagram"></i>
+
+*/
+
+/*BODY*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    line-height: 26px;
+/*    font-size: 1.6rem;*/
+}
+
+
+/*Header*/
+
+.navbar-brand{
+    max-width: 50%;
+}
+
+.navbar-toggler span{
+   width: 30px;
+   height: 3px;
+   background-color: #fff;
+   margin-bottom: 5px;
+   display: block;
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    background:#fff;
+    color: #000;
+}
+
+
+/*News section*/
+
+.news-title a{
+    line-height: 35px;
+    color: #000 !important;
+}
+
+.news .news-image{
+    overflow: hidden;
+}
+
+.news .news-image img{
+    transition: 0.5s linear;
+}
+
+.news .news-image:hover img{
+    transform: scale(1.1);
+}
+
+/*Blog*/
+
+.blog .blog-item-title a{
+    color: #000;
+/*    line-height: 70px;*/
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.blog .bg-dark{
+    background-color: #000 !important; /*stavili smo da je important jer je klasa .bg-dark imala pre toga important i nije htelo da primi zadatu boju.*/
+}
+
+.blog .bg-dark .blog-item-title a{
+  color: #fff;  
+}
+
+/*Footer*/
+
+.social a{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    text-decoration: none !important;
+}

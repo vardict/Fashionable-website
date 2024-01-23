@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 31, 2022, 3:44:05 PM
+    Author     : Tijana
+*/
+
+/*
+BRAKE POINTS FOR BOOTSTRAP
+
+
+> 0px XS - NO NAME
+
+> 576px SM - small devices
+
+> 768px MD - medium devices
+
+> 992px LG - large devices
+
+> 1200px XL - extra large devices
+*/
+
+
+/*PISANJE CUSTOM RESPONSIVE CODE*/
+
+@media(min-width:576px){
+
+}
+
+@media(min-width:768px){ /*NIJE DOBRO NAPISAN WIDTH!!!*/
+
+    /*header*/
+
+    .navbar-dark .navbar-nav .nav-item .nav-link{
+        color: #fff;
+        text-align: center;
+        padding: 10px 20px;
+        border-bottom: 2px solid transparent;
+    }
+
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        background-color:transparent;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+    }
+    
+    /*About Us*/
+    
+    .about .about-content{
+        column-count: 2;
+        column-gap: 44px;
+    }
+}
+
+@media(min-width:992px){
+
+    /*Header*/
+    
+    .navbar-dark .navbar-nav .nav-item{
+        margin-left: 30px;
+    }
+}
+
+@media(min-width:1200px){
+
+}
+
+@media(min-width:1250px){
+
+    .container{
+        max-width: 1200px;
+    }
+
+    .container,
+    .container-fluid{
+        padding-left: 22px;
+        padding-right: 22px
+    }
+
+    .row{
+        margin-left: -22px;
+        margin-right: -22px;
+    }
+
+    .row > *{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    /*sa ovim smo podesili .container */
+}
